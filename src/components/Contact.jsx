@@ -4,7 +4,10 @@ import { LuSmartphone, LuMonitor } from "react-icons/lu";
 
 const Contact = () => {
   return (
-    <section className="w-[90%] grid sm:grid-cols-2 grid-cols-1 mx-auto sm:py-10 pb-8">
+    <section
+      className="w-[90%] grid sm:grid-cols-2 grid-cols-1 mx-auto sm:py-10 pb-8"
+      id="products"
+    >
       {/* Contact/Suscription */}
       <div className="py-10 sm:py-20 flex flex-col gap-2 sm:gap-6 pr-2">
         <h1 className="text-xl sm:text-5xl font-bold">How we can help you</h1>

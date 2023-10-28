@@ -52,25 +52,25 @@ const Header = () => {
         } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center gap-10 justify-center transition-all duration-500 z-10 xl:pl-52`}
       >
         <a
-          href="#"
+          href="./#hero"
           className="text-xl font-medium text-gray-800 hover:text-gray-950"
         >
           Home
         </a>
         <a
-          href="#"
+          href="./#abautUs"
           className="text-xl font-medium text-gray-800 hover:text-gray-950"
         >
           Abaut us
         </a>
         <a
-          href="#"
+          href="./#services"
           className="text-xl font-medium text-gray-800 hover:text-gray-950"
         >
           Services
         </a>
         <a
-          href="#"
+          href="./#products"
           className="text-xl font-medium text-gray-800 hover:text-gray-950"
         >
           Products

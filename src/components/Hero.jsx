@@ -8,13 +8,16 @@ import {
 
 const Hero = () => {
   return (
-    <section className="min-h-[100vh] pt-32 pb-8 grid grid-cols-1 md:grid-cols-8">
+    <section
+      className="min-h-[100vh] pt-32 pb-8 grid grid-cols-1 md:grid-cols-8"
+      id="hero"
+    >
       {/* Infomration */}
       <div className="md:col-span-5 flex items-center justify-center content-box p-8 xl:p-16">
-        <div className="flex flex-col gap-8">
-          <h1 className="text-5xl xl:text-7xl font-bold xl:leading-[7.5rem] leading-[3.5rem]">
+        <div className="flex flex-col gap-4">
+          <h1 className="text-4xl xl:text-6xl font-bold xl:leading-[7.5rem] leading-[3.5rem]">
             Web Design Impacful Digital{" "}
-            <span className="py-2 px-6 text-primary border-8 border-primary relative inline-block mt-2 md:mt-0">
+            <span className="px-4 text-primary border-8 border-primary relative inline-block mt-2 md:mt-0">
               Products
               <RiCheckboxBlankCircleFill className="text-base absolute text-white p-2 bg-primary rounded-full box-content -top-5 -left-5" />
               <RiCheckboxBlankCircleFill className="text-base absolute text-white p-2 bg-primary rounded-full box-content -top-5 -right-5" />
@@ -22,15 +25,15 @@ const Hero = () => {
               <RiCheckboxBlankCircleFill className="text-base absolute text-white p-2 bg-primary rounded-full box-content -bottom-5 -right-5" />
             </span>
           </h1>
-          <p className="text-gray-500 text-xl leading-[2.5rem] ">
+          <p className="text-gray-500 text-lg leading-[2.5rem] ">
             Help find solutions with intitutive and in accordance with client
             business goals. we provide a high-quality services.
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4">
-            <button className="w-full md:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl">
+            <button className="w-full md:w-auto bg-primary text-white py-2 px-8 rounded-xl text-lg">
               Contact Us
             </button>
-            <button className="w-full md:w-auto py-2 text-left flex items-center gap-4 px-8 rounded-xl text-xl">
+            <button className="w-full md:w-auto py-2 text-left flex items-center gap-4 px-8 rounded-xl text-lg">
               <RiPlayFill className="bg-secondary text-primary p-4 box-content rounded-full" />{" "}
               Watch our <br />
               introduction video
@@ -41,7 +44,7 @@ const Hero = () => {
       </div>
       {/* Image Hero */}
       <div className="md:col-span-3 flex items-center justify-center relative p-4 ">
-        <div>
+        <div className="md:w-[80%] w-full">
           <img
             src="Hero.png"
             alt=""

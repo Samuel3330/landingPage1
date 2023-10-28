@@ -3,7 +3,7 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
 const Group = () => {
   return (
-    <div className="w-full bg-gray-100">
+    <div className="w-full bg-gray-100" id="services">
       <div className="flex flex-col w-[90%] mx-auto justify-center py-20 gap-12">
         <h1 className="md:text-4xl text-xl font-bold text-center flex flex-col justify-center">
           Let’s hear What they says
